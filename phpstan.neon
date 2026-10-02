@@ -1,0 +1,15 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+
+parameters:
+    # The base tables are created by the core package's migrations.
+    databaseMigrationsPath:
+        - database/migrations
+        - vendor/pnscripts/pn-shop-core/database/migrations
+    stubFiles:
+        - stubs/phpstan/kalnoy-nestedset.stub
+    paths:
+        - app/
+        - database/
+        - routes/
+    level: 5
