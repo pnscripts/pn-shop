@@ -39,7 +39,7 @@ export default [
         },
     },
     {
-        ignores: ['vendor', 'node_modules', 'public', 'bootstrap/ssr', 'tailwind.config.js', 'themes/*/*/dist', 'extensions/*/*/dist', 'vendor/pnscripts/pn-shop-core/theme/dist', 'vendor/pnscripts/pn-shop-core/vendor'],
+        ignores: ['vendor', 'node_modules', 'public', 'bootstrap/ssr', 'tailwind.config.js', 'themes/*/*/dist', 'themes/*/*/ssr', 'extensions/*/*/dist', 'vendor/pnscripts/pn-shop-core/theme/dist', 'vendor/pnscripts/pn-shop-core/vendor'],
     },
     prettier, // Turn off all rules that might conflict with Prettier
 ];

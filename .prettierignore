@@ -2,6 +2,7 @@ vendor/pnscripts/pn-shop-core/resources/js/components/ui/*
 vendor/pnscripts/pn-shop-core/resources/js/ziggy.js
 vendor/pnscripts/pn-shop-core/resources/views/mail/*
 themes/*/*/dist
+themes/*/*/ssr
 extensions/*/*/dist
 vendor/pnscripts/pn-shop-core/theme/dist
 vendor/pnscripts/pn-shop-core/resources/upgrade/*.json
