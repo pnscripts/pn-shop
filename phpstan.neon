@@ -27,6 +27,11 @@ parameters:
         - vendor/pnscripts/pn-shop-core/src/System/database/migrations
         - vendor/pnscripts/pn-shop-core/src/Tax/database/migrations
         - extensions/pnshop/handling-fee/database/migrations
+        - extensions/pnshop/prior-price/database/migrations
+        - extensions/pnshop/withdrawal/database/migrations
+        - extensions/pnshop/bg-n18/database/migrations
+        - extensions/pnshop/econt/database/migrations
+        - extensions/pnshop/speedy/database/migrations
     stubFiles:
         - stubs/phpstan/kalnoy-nestedset.stub
     paths:
